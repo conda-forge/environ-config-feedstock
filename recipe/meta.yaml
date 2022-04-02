@@ -1,5 +1,5 @@
 {% set name = "environ-config" %}
-{% set version = "21.2.0" %}
+{% set version = "22.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/environ-config-{{ version }}.tar.gz
-  sha256: 24bebf69d814a18242483c83a2856f20db1b623eab2d34fb712d3d02f5cd22c8
+  sha256: 7c7dbc5601060667301e992f6f0544c01e5144c86f1b2ec0b053e322788bb602
 
 build:
   number: 0
