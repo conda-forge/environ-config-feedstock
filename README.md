@@ -1,11 +1,11 @@
-About environ-config
-====================
+About environ-config-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/environ-config-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/hynek/environ_config
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/environ-config-feedstock/blob/main/LICENSE.txt)
 
 Summary: Boilerplate-free configuration with env variables.
 
