@@ -1,5 +1,5 @@
 {% set name = "environ-config" %}
-{% set version = "22.1.0" %}
+{% set version = "26.1.0" %}
 
 
 package:
@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/environ-config-{{ version }}.tar.gz
-  sha256: 7c7dbc5601060667301e992f6f0544c01e5144c86f1b2ec0b053e322788bb602
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 7fe80885d22dd50218664c1e4e2c098429129387ddbb6e51318a3883639ae8b4
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
